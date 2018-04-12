@@ -31,13 +31,13 @@ One option that cross platform is [gitkraken](https://www.gitkraken.com/).
 Finally, to make sure that you can receive updates easily, by adding an upstream remote.
 Use the following remote details:
 ```
-git@gitlab.cs.wallawalla.edu:cptr141/homework.git
+git@gitlab.cs.wallawalla.edu:cptr242/homework.git
 ```
 
 If you are using a terminal, type the following command.
 
 ```
-git remote add upstream git@gitlab.cs.wallawalla.edu:cptr141/homework.git
+git remote add upstream git@gitlab.cs.wallawalla.edu:cptr242/homework.git
 ```
 
 
