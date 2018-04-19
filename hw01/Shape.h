@@ -5,13 +5,13 @@
  * 
  * File Name:  Shape.h
  * Course:     CPTR 242
- * 
- * Provided Code...
- */
+ *
+***************************************************************************/
 #ifndef SHAPE_H
 #define SHAPE_H
 
 #include <iostream>
+#include "NegativeLengthException.h"
 using namespace std;
 
 

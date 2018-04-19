@@ -4,9 +4,7 @@
  * 
  * File Name:  NegativeLengthException.h
  * Course:     CPTR 242
- * 
- * Provided code...
- */
+ *************************************************************************/
 #ifndef NEGATIVE_LENGTH_EXCEPTION_H
 #define NEGATIVE_LENGTH_EXCEPTION_H
 
