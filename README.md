@@ -40,6 +40,22 @@ If you are using a terminal, type the following command.
 git remote add upstream git@gitlab.cs.wallawalla.edu:cptr242/homework.git
 ```
 
+### Saving your Homework Assignment
+
+You will need to _commit_ your changes to the repository and _push_ them to gitlab.
+Review the cheatsheet for the specifics.
+
+### Getting the next Homework Assignment
+
+You will need to pull down the latest assignment using the following commands:
+
+```
+git pull --no-edit
+git fetch upstream
+git checkout master
+git merge upstream/master -m "automerging"
+```
+
 ## Git Cheatsheet
 A basic [cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet/) for command on [git](https://git-scm.com/).
 
