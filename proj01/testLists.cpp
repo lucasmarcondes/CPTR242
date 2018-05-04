@@ -1,3 +1,6 @@
+#include "testLists.h"
+#include "ItemType.h"
+#include "SortedType.h"
 
 
 bool testMergeLists(SortedType list1, SortedType list2) {
@@ -6,7 +9,7 @@ bool testMergeLists(SortedType list1, SortedType list2) {
 }
 
 
-bool testSplitLists(const SortedType& list, ItemType item) {
+bool testSplitLists(SortedType list, ItemType item) {
     // TODO Write test for SplitLists
     return true;
 }
