@@ -1,0 +1,20 @@
+try
+{
+     infile >> value;
+  do
+  {
+    if (value < 0)
+      throw string("Negative value"); // Exception is a string 
+    sum = sum + value;
+  } while (infile);
+}
+catch (string message)        
+// Parameter of the catch is type string
+{
+  // Code that handles the exception
+  cout << message << " found in file. Program aborted."
+  return 1;
+}
+// Code to continue processing if exception not thrown.
+cout << "Sum of values on the file: " << sum;
+

@@ -1,0 +1,71 @@
+JOIN David XEROX
+JOIN Mario XEROX
+JOIN John Digital
+JOIN Fred Digital
+JOIN Phil IBM
+CHANGE Fred NEC
+JOIN Miriam Digital
+JOIN Sharon Microsoft
+JOIN Harvey Digital
+CHANGE Miriam Borland
+PAYDAY
+EMPLOYEES Digital
+JOIN Marge Borland
+JOIN Lesley Microsoft
+JOIN Sam Digital
+JOIN George NEC
+JOIN Bob Borland
+JOIN Susan IBM
+JOIN Joshua Digital
+JOIN Max NEC
+PAYDAY
+EMPLOYEES IBM
+EMPLOYEES Digital
+EMPLOYEES NEC
+JOIN Tim IBM
+DEMOTE Harvey
+PROMOTE Max
+DEMOTE Marge
+CHANGE Marge IBM
+QUIT John
+PAYDAY
+QUIT Mario
+QUIT David
+PROMOTE Marge
+PROMOTE Marge
+PAYDAY
+EMPLOY
+EMPLOYEES IBM
+EMPLOYEES XEROX
+JOIN John Compaq
+JOIN Ralph Compaq
+QUIT Phil
+JOIN Phil Compaq
+DUMP
+CHANGE Marge Compaq
+CHANGE Miriam Compaq
+CHANGE Fred Compaq
+CHANGE Susan Compaq
+QUIT Tim
+PAYDAY
+EMPLOYEES Compaq
+JOIN Mario XEROX
+JOIN David XEROX
+EMPLOYEES XEROX
+JOIN Tim Compaq
+PROMOTE Tim
+PROMOTE Fred
+DEMOTE Miriam
+JOIN Laszlo Digital
+PROMOTE Laszlo
+CHANGE Joshua Compaq
+PAYDAY
+PROMOTE Sharon
+DEMOTE Lesley
+PROMOTE Bob
+DEMOTE Bob
+DEMOTE John
+UNEMPLOYED
+PAYDAY
+DUMP
+END

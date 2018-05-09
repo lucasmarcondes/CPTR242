@@ -1,0 +1,17 @@
+Files:  Caution many of these files contain functions not complete programs
+
+Fraction 	
+	frac.h		Specification for class FractionType
+	frac.cpp		Implementation for class FractionType
+	fracIn		Input data for test driver
+	fracOut		Output from test
+	fracDr.cpp	Test driver
+	ScreenScript	Screen from run
+
+cinCout.cpp	Input side bar
+file.cpp		File side bar
+DateType.h &	
+  DateType.cpp	Class side bar
+Divide.cpp	Divide function
+DivideDr.cpp	Divide function within driver
+GenDriver.cpp	Prototype for generalized test driver
