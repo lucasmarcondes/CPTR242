@@ -1,0 +1,49 @@
+IsEmpty
+Enqueue 5
+Enqueue 7
+Enqueue 6
+Enqueue 9
+Dequeue
+Dequeue
+Dequeue
+Dequeue
+Enqueue 2
+Enqueue 3
+Enqueue 3
+Enqueue 4
+Dequeue
+Dequeue
+Dequeue
+Dequeue
+Enqueue 5
+Dequeue
+Enqueue 3
+Enqueue 7
+Dequeue
+Dequeue
+IsEmpty
+Enqueue 2
+IsEmpty
+Dequeue
+IsEmpty
+Dequeue
+Enqueue 2
+Enqueue 3
+Enqueue 3
+Enqueue 4
+IsFull
+Enqueue 1
+IsFull
+Enqueue 2
+Dequeue
+Enqueue 2
+Dequeue
+Dequeue
+Dequeue
+Dequeue
+MakeEmpty
+IsEmpty
+Dequeue
+Quit
+
+

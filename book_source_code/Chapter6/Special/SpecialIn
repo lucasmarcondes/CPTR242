@@ -1,0 +1,32 @@
+PutFront 1
+PutFront 2
+PutFront 3
+PutFront 4
+PutFront 5
+PutEnd 0
+PutEnd -1
+PutFront 6
+PutEnd -2
+ResetForward
+GetNextItem
+GetNextItem
+GetNextItem
+GetNextItem
+GetNextItem
+GetNextItem
+GetNextItem
+GetNextItem
+GetNextItem
+ResetBackward
+GetPriorItem
+GetPriorItem
+GetPriorItem
+GetPriorItem
+GetPriorItem
+GetPriorItem
+GetPriorItem
+GetPriorItem
+GetPriorItem
+GetLength
+Error
+Quit
