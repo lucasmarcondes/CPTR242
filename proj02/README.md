@@ -29,6 +29,9 @@ Write up a list of possible data structures (minimum of three).
 Detail the stregthns and weaknesses of these data structures for this application.
 Include in the anaylsis a comparision of Big-O notation of data structure functions.
 
+The evaluation should be stored in __EVALUATION.md__. 
+
+
 ### Writing Tests
 
 Before coding, write up a set of tests that can be used to ensure the data structure is implemented correctly.
@@ -37,11 +40,20 @@ The tests should attempt to get 100% code coverage of your data structure.
 The tests do not need to include the user input and output.
 Just the internal classes.
 
+The tests should be run by a __test_driver.cpp__.
+Detail the process to compile and run the test driver in __TEST_REPORT.md__.
+The report should also outline the tests you have implemented.
+
+
 ### Implementation 
 
-Write up the 
+The program should be run by a __main.cpp__.
+Detail the process to compile and run the program in __PROGRAM_REPORT.md__.
+
 
 ### Write Up
 
 Write up your experience in implementing your data structure. 
 What did you think about writing tests before writing your application?
+
+Add the write up information to the __PROGRAM_REPORT.md__.
