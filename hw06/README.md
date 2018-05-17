@@ -1,4 +1,4 @@
-# CPTR 242: Homework Assignment #7
+# CPTR 242: Homework Assignment #6
 
 ## Problem Overview
 Your task in this assignment is to implement __minLoc__ and __sort__ for an Unsorted List.
