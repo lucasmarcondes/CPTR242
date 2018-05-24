@@ -24,6 +24,8 @@ The project is broken up into several phases to completed in order.
 
 ### Data Structure Evaluation
 
+_Due May 16_
+
 The first phase is to evaluate possible data structures for the project.
 Write up a list of possible data structures (minimum of three).
 Detail the stregthns and weaknesses of these data structures for this application.
@@ -32,26 +34,44 @@ Include in the anaylsis a comparision of Big-O notation of data structure functi
 The evaluation should be stored in __EVALUATION.md__. 
 
 
-### Writing Tests
+### Test Descriptions
+
+_Due May 18_
 
 Before coding, write up a set of tests that can be used to ensure the data structure is implemented correctly.
 These test will be converted to C++ tests which you will implement as part of the project.
 The tests should attempt to get 100% code coverage of your data structure.
 The tests do not need to include the user input and output.
-Just the internal classes.
+Focus on testing your internal classes and data structure.
+
+Write up the test descriptions in __TEST_REPORT.md__.
+
+
+### Implementing Tests
+
+_Due May 23_
+
+
+After you have written your test descriptions, start to implement your tests and create your test driver.
+The test driver is simply a main function that executes your tests.
+The tests should attempt to get 100% code coverage of your data structure.
 
 The tests should be run by a __test_driver.cpp__.
-Detail the process to compile and run the test driver in __TEST_REPORT.md__.
-The report should also outline the tests you have implemented.
+Update the test report to include instructions to compile and run the test driver in __TEST_REPORT.md__.
 
 
 ### Implementation 
 
+_Due May 30_
+
 The program should be run by a __main.cpp__.
-Detail the process to compile and run the program in __PROGRAM_REPORT.md__.
+Write up the instructions to compile and run the program in __PROGRAM_REPORT.md__.
 
 
 ### Write Up
+
+_Due June 1_
+
 
 Write up your experience in implementing your data structure. 
 What did you think about writing tests before writing your application?

@@ -11,9 +11,9 @@ The problem is based on the book exercise we covered in class (Chapter 7 Exercis
 
 Your solution to this problem must meet the following criteria.
 
-1. Implement __minLoc__ for the linked implemenation in _RecursiveFunctions.cpp_. 
+1. Implement __minLoc__ for the linked implemenation in _minSort.cpp_. 
    A stub of the function has been given to you.
-2. Implement __sort__ for the linked implemenation in _RecursiveFunctions.cpp_. 
+2. Implement __sort__ for the linked implemenation in _minSort.cpp_. 
    A stub of the function has been given to you.
    The sort must use __minLoc__ to perform the sort operation.
 3. Pass all the tests in Submitty.
