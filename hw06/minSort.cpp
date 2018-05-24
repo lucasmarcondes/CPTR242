@@ -3,9 +3,9 @@
  * Howemork.06: Implement a two recursive functions on a linked unsorted list.
  *
  * File Name:  minSort.cpp
- * Name:       ?
+ * Name:       Lucas Marcondes
  * Course:     CPTR 242
- * Date:       ?
+ * Date:       5/23/18
  * Time Taken: ?
  *
  */
@@ -14,11 +14,35 @@
 
 using namespace std;
 
-NodeType* MinLoc(NodeType* list, NodeType*& minPtr) {
+NodeType* MinLoc(NodeType* list, NodeType*& minPtr)
+{
     // TODO Add recursive MinLoc.
-    return NULL;
+    if (list->info.ComparedTo(minPtr->info) == LESS)
+        minPtr = list;
+    if (list->next != NULL)
+        return MinLoc(list->next, minPtr);
+
+        return minPtr;
 }
 
-void Sort(NodeType* list) {
+void Sort(NodeType* list)
+{
     // TODO Add recursive sort method that uses MinLoc.
+
+if (list->next == NULL)
+{
+
+//switch (MinLoc(list->next, list)->info.ComparedTo(list->info))
+} else {
+
+    ItemType tempItem;
+    NodeType* x = list;
+    x = MinLoc(list->next, x);
+
+    tempItem = list->info;
+    list->info = x->info;
+    x->info = tempItem;
+
+    Sort(list->next);
+}
 }
