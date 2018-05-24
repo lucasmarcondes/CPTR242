@@ -1,5 +1,5 @@
 // These functions are made up until I make a header file/back them up with other code.
-// Assumimg there are 4 lists: one for the wedded, another for 25+ students, another for regular students, and a list for all the applicants
+// Assumimg there are 4 lists: one for the wedded(1), another for 25+ students(2), another for regular students(3), and a list for all the applicants(0)
 
 //Tests the queue length of all the queues to see if it matches with the queue with all the applicants.
 bool testQueueLength()
@@ -10,7 +10,8 @@ bool testQueueLength()
         return true;
 }
 
-//compares the priority value (0-3) assigned to each applicant, and makes sure the applicant is in the correct list. This also checks the queue assignment test I had put in the test report.
+//compares the priority value (0-3) assigned to each applicant, and makes sure the applicant is in the correct list. 
+//This also checks the queue assignment test I had put in the test report.
 bool testQueueOrder(QueueType* list, int priority)
 {
     ItemType applicant = list.GetNextApplicant();
