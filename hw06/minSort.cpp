@@ -32,8 +32,9 @@ void Sort(NodeType* list)
 if (list->next == NULL)
 {
 
-//switch (MinLoc(list->next, list)->info.ComparedTo(list->info))
-} else {
+}
+else 
+{
 
     ItemType tempItem;
     NodeType* x = list;
