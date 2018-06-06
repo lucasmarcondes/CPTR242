@@ -27,7 +27,7 @@ void TreeType::AncestorsIterative(ItemType value, std::ofstream& outFile) {
 }
 
 void PrintAncestorsRecursive(TreeNode* tree, ItemType value, std::ofstream& outFile) {
-    if (tree == tree->info){
+    if (tree == NULL){
         return;
     }else if (tree->info > value){
         outFile << tree->info;
@@ -39,7 +39,7 @@ void PrintAncestorsRecursive(TreeNode* tree, ItemType value, std::ofstream& outF
 }
 
 void PrintAncestorsReverse(TreeNode* tree, ItemType value, std::ofstream& outFile) {
-    if (tree == tree->info){
+    if (tree == NULL){
         return;
     }else if (tree->info > value){
         PrintAncestorsReverse(tree->left, value, outFile);
