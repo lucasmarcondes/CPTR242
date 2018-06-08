@@ -26,11 +26,11 @@ QueType PriorityList::getQueue(int i) {
 }
 
 void PriorityList::viewApplicants() {
-    QueType queue[] = {priority3, priority2, priority1, priority0};
+    QueType display[] = {priority3, priority2, priority1, priority0};
     int count = 1;
 
     for (int i = 0; i < 4; i++) {
-        queue[i].printQueue(count);
+        display[i].printQueue(count);
     }
 }
 

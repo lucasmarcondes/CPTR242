@@ -55,7 +55,7 @@ void QueType::printQueue(int &num) {
     ptr = front;
 
     while (ptr != NULL) {
-        cout << "APPLICANT " + to_string(num) << std::endl;
+        cout << "Applicant: " + to_string(num) << std::endl;
         ptr->applicant.displayApplicant();
         ptr = ptr->next;
         num ++;
@@ -65,7 +65,7 @@ void QueType::printQueue(int &num) {
 Applicant QueType::getApplicant(Applicant item, bool& found) {
     NodeType* tempPtr = front;
     while(front != NULL){
-        if(front->item.getName() != applicant.getName())
+        if(front->applicant.getName() != item.getName())
         {
             found = true;
             return front->applicant;

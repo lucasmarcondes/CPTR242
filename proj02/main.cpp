@@ -3,15 +3,16 @@
 
 using namespace std;
 
-int main() {
-    void viewWaitlist(PriorityList* p) {
-        p->viewApplicants();
-    }
+void viewWaitlist(PriorityList* p) {
+    p->viewApplicants();
+}
 
-    //UI
+int main() {
+
+       //UI
     bool display = true;
     PriorityList* waitingList = new PriorityList();
-
+    PriorityList *l;
     int input;
 
         cout << "Village Housing Main Menu\n\n";
@@ -27,7 +28,7 @@ int main() {
     while(display){
         switch (input) {
             case 1:
-                l->addApplicant();
+                l->inputApplicant();
                 break;
             case 2:
                 if (waitingList->allApplicants() == 0)
@@ -35,30 +36,30 @@ int main() {
                 else
                     l->deleteApplicant();
                 break;
-            case 3:
+            case 3: {
                 string first;
                 string last;
                 bool found;
+                Applicant a = l->getApplicant(first + " " + last, found);
 
                 cout << "Please enter the first name of the applicant: \n";
                 cin >> first;
-                cout << "Please enter the last name of the applicant: \n";
+                cout << "Please enter s1the last name of the applicant: \n";
                 cin >> last;
-
                 if (found)
-                    l->getApplicant(first + " " + last, found).displayApplicant();
+                    a.displayApplicant();
                 else
                     cout << "Applicant not found.\n";
-
                 break;
-            case 4:
+            }
+            case 4: {
                 if (waitingList->allApplicants() == 0)
                     cout << "There are currently no applicants in the waiting list.\n";
                 else
                     viewWaitlist(waitingList);
                 break;
-            case 5:
-                bool correctLength = testQueueLength();
+                case 5:
+                    bool correctLength = testQueueLength();
                 bool correctDelete = testQueueDelete();
 
                 if (!correctLength)
@@ -70,6 +71,7 @@ int main() {
                 if (correctDelete && correctLength)
                     cout << "Tests passed Correctly.\n";
                 break;
+            }
             case 0:
                 display = false;
                 break;

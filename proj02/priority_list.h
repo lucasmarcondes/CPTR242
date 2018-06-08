@@ -15,7 +15,7 @@ class PriorityList {
         void addApplicant(Applicant);
         void addApplicant(std::vector<Applicant>);
         void inputApplicant();
-    void PriorityList::viewApplicants();
+        void viewApplicants();
 
     private:
         QueType priority0;
