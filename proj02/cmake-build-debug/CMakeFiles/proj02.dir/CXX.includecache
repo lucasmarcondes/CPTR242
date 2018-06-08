@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/lucas/Documents/Data Structures/proj02/QueType.cpp
+QueType.h
+C:/Users/lucas/Documents/Data Structures/proj02/QueType.h
+
+C:/Users/lucas/Documents/Data Structures/proj02/QueType.h
+applicant.h
+C:/Users/lucas/Documents/Data Structures/proj02/applicant.h
+
+C:/Users/lucas/Documents/Data Structures/proj02/applicant.cpp
+applicant.h
+C:/Users/lucas/Documents/Data Structures/proj02/applicant.h
+
+C:/Users/lucas/Documents/Data Structures/proj02/applicant.h
+iostream
+-
+string
+-
+
+C:/Users/lucas/Documents/Data Structures/proj02/main.cpp
+test_driver.h
+C:/Users/lucas/Documents/Data Structures/proj02/test_driver.h
+iostream
+-
+
+C:/Users/lucas/Documents/Data Structures/proj02/priority_list.cpp
+priority_list.h
+C:/Users/lucas/Documents/Data Structures/proj02/priority_list.h
+applicant.h
+C:/Users/lucas/Documents/Data Structures/proj02/applicant.h
+
+C:/Users/lucas/Documents/Data Structures/proj02/priority_list.h
+QueType.h
+C:/Users/lucas/Documents/Data Structures/proj02/QueType.h
+applicant.h
+C:/Users/lucas/Documents/Data Structures/proj02/applicant.h
+vector
+-
+
+C:/Users/lucas/Documents/Data Structures/proj02/test_driver.cpp
+test_driver.h
+C:/Users/lucas/Documents/Data Structures/proj02/test_driver.h
+
+C:/Users/lucas/Documents/Data Structures/proj02/test_driver.h
+priority_list.h
+C:/Users/lucas/Documents/Data Structures/proj02/priority_list.h
+QueType.h
+C:/Users/lucas/Documents/Data Structures/proj02/QueType.h
+

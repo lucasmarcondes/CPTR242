@@ -1,51 +1,53 @@
-// These functions are made up until I make a header file/back them up with other code.
-// Assumimg there are 4 lists: one for the wedded(1), another for 25+ students(2), another for regular students(3), and a list for all the applicants(0)
+#include "test_driver.h"
 
-//Tests the queue length of all the queues to see if it matches with the queue with all the applicants.
+//compares the amount of applicants to the added applicants.
 bool testQueueLength()
 {
-    if (priorityList1.getLength() + priorityList2.getLength() + priorityList3.getLength() != priorityList0.getLength)
+    Applicant a1 = Applicant("Han Solo", 30, false, 1);
+    Applicant a2 = Applicant("Chewy", 234, false, 0);
+    Applicant a3 = Applicant("Luke Skywalker", 15, true, 2);
+    Applicant a4 = Applicant("Jar Jar Binks", 30, true, 0);
+    PriorityList p = PriorityList();
+    std::vector<Applicant> test;
+    test.push_back(a1);
+    test.push_back(a2);
+    test.push_back(a3);
+    test.push_back(a4);
+    p.addApplicant(test);
+
+    if (p.allApplicants() != 4)
         return false;
     else
         return true;
 }
 
-//compares the priority value (0-3) assigned to each applicant, and makes sure the applicant is in the correct list. 
-//This also checks the queue assignment test I had put in the test report.
-bool testQueueOrder(QueueType* list, int priority)
+//tests if the applicant was deleted correctly deleting an applicant and checking if it is there
+bool testQueueDelete()
 {
-    ItemType applicant = list.GetNextApplicant();
-    if (priority == 1)
-    {
-        if (applicant.priority == 1)
-            correctOrder(list->next, priority);
-    }
-    else   
-        return false;
-    else if (priority == 2)
-    {
-        if (applicant.priority == 2)
-            correctOrder(list->next, priority)
-    }
-    else
-        return false;
-    else if (priority == 3)
-    {
-        if (applicant.priority == 3)
-            correctOrder(list->next, priority)
-    }
-    else   
-        return false;
-}
-//tests if the applicant was deleted correctly by comparing the new list with the old list
-bool testQueueDelete(QueueType* list, ItemType item)
-{
-    QueueType* newList = list.remove(item);
-    list.removeItem(item);
 
-    if (newList.printList() == list.printList)
-        return true;
+    Applicant a1 = Applicant("Han Solo", 30, false, 1);
+    Applicant a2 = Applicant("Chewy", 234, false, 0);
+    Applicant a3 = Applicant("Luke Skywalker", 15, true, 2);
+    Applicant a4 = Applicant("Jar Jar Binks", 30, true, 0);
+    PriorityList l = PriorityList();
+    std::vector<Applicant> test;
+    test.push_back(a1);
+    test.push_back(a2);
+    test.push_back(a3);
+    test.push_back(a4);
+    l.addApplicant(test);
 
+    bool found;
+    bool found1;
+
+    l.deleteApplicant();
+    l.deleteApplicant();
+
+    l.getApplicant(a2, found);
+    l.getApplicant(a4, found1);
+
+    if (found || found1)
     return false;
-}
 
+    return true;
+}
